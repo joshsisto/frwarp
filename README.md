@@ -8,7 +8,7 @@ A command-line AI helper that brings LLM-powered assistance directly to your ter
 
 ## Overview
 
-frwarp is a command-line utility that integrates AI assistance into your bash workflow. Inspired by [Warp](https://www.warp.dev/), it leverages [Simon Willison's LLM tool](https://github.com/simonw/llm) to provide intelligent bash command suggestions, error troubleshooting, and command fixes directly in your terminal.
+frwarp (free warp) is a command-line utility that integrates AI assistance into your bash workflow. Inspired by [Warp](https://www.warp.dev/), it leverages [Simon Willison's LLM tool](https://github.com/simonw/llm) to provide intelligent bash command suggestions, error troubleshooting, and command fixes directly in your terminal.
 
 ## Features
 
@@ -96,7 +96,7 @@ source ~/.bashrc
 Get AI-powered bash command suggestions:
 
 ```bash
-ai find all large files in the current directory
+ai 'find all large files in the current directory'
 ```
 
 ### Fix Failed Commands
