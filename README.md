@@ -35,7 +35,13 @@ llm keys set openrouter
 # Enter your API key when prompted
 ```
 
-3. Copy the functions from the provided `.bashrc` file into your own `.bashrc`:
+3. Set the default model
+
+```bash
+llm models default openrouter/deepseek/deepseek-chat-v3-0324:free
+```
+
+4. Copy the functions from the provided `.bashrc` file into your own `.bashrc`:
 
 ```bash
 # Function to prepend instructions and call the llm command
@@ -81,7 +87,7 @@ function h() {
 }
 ```
 
-4. Source your `.bashrc` to activate the functions:
+5. Source your `.bashrc` to activate the functions:
 
 ```bash
 source ~/.bashrc
