@@ -1,7 +1,5 @@
 # frwarp
 
-# frwarp
-
 A command-line AI helper that brings LLM-powered assistance directly to your terminal.
 
 [![asciicast](https://asciinema.org/a/717384.svg)](https://asciinema.org/a/717384)
